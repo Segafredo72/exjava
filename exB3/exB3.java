@@ -9,8 +9,8 @@ public static void main(String[] args){
 	numbers = new int[10];
 	numbers = new int[]{10, 11, 35, 45, 85, 51, 61, 35, 74, 44};
 	
-	for (int i=0; i<10; i++) {
-			total += numbers[i];
+	for (int number : numbers) {
+			total += number;
 	}
 	average = (double) total / numbers.length;
 	System.out.println("Average is "+ average);
