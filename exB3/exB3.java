@@ -12,7 +12,7 @@ public static void main(String[] args){
 	for (int i=0; i<10; i++) {
 			total += numbers[i];
 	}
-	average = (double) total / 10;
+	average = (double) total / numbers.length;
 	System.out.println("Average is "+ average);
 }
 }
